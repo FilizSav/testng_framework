@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Smoke">
+  <test name="Critical Functionalities">
+      <classes>
+          <class name="scripts.TechGlobalFrontendTestingHomeTest">
+              <methods>
+                  <include name="validateFrontendTestingCards"/>
+              </methods>
+          </class>
+          <class name="scripts.TechGlobalHeaderTest">
+              <methods>
+                  <include name="validateTechGlobalHeaderDropdown"/>
+              </methods>
+          </class>
+          <class name="scripts.TechGlobalLogoTest">
+          </class>
+      </classes>
+  </test>
+</suite>
