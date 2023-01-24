@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.TechGlobalAlertsPage;
 import pages.TechGlobalFrontendTestingHomePage;
+import utilities.AlertHandler;
 
 public class TechGlobalAlertsText extends TechGlobalBase{
 
@@ -27,12 +28,22 @@ public class TechGlobalAlertsText extends TechGlobalBase{
     @Test(priority = 2, description = "Validate confirmation alert")
     public void confirmationAlert(){
         techGlobalAlertsPage.clickOnAlert("Confirmation alert");
-        Alert alert = driver.switchTo().alert();
-        Assert.assertEquals(alert.getText(),"Would you like to stay on TechGlobal Training application?" );
-        alert.dismiss();
+        Assert.assertEquals(AlertHandler.getAlertText(),"Would you like to stay on TechGlobal Training application?" );
+        AlertHandler.dismissAlert();
         Assert.assertEquals(techGlobalAlertsPage.results.getText(),"You rejected the alert by clicking Cancel." );
         techGlobalAlertsPage.clickOnAlert("Confirmation alert");
-        alert.accept();
+        AlertHandler.acceptAlert();
         Assert.assertEquals(techGlobalAlertsPage.results.getText(),"You confirmed the alert by clicking OK.");
+    }
+    @Test(priority = 3, description = "Validate Prompt alert")
+    public void promptAlert(){
+        techGlobalAlertsPage.clickOnAlert("Prompt alert");
+        AlertHandler.dismissAlert();
+        Assert.assertEquals(techGlobalAlertsPage.results.getText(),"You rejected the alert by clicking Cancel.");
+        techGlobalAlertsPage.clickOnAlert("Prompt alert");
+        Assert.assertEquals(AlertHandler.getAlertText(),"What would you like to say to TechGlobal?");
+        String message = AlertHandler.sendKeysToAlert("Hello");
+        AlertHandler.acceptAlert();
+        Assert.assertEquals(techGlobalAlertsPage.results.getText(),"You entered " + "\"" +message+ "\"" + " in the alert and clicked OK.");
     }
 }
