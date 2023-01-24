@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73626eb0-eb89-4d96-a36b-f011b3d85ce2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalAlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDropdownsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalMultipleWindowsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalAlertsText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalMultipleWindowsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DropdownHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/WindowHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TechGlobalCheckBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalCheckBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,8 +68,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="scripts" />
       <recent name="pages" />
+      <recent name="scripts" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -72,8 +77,8 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/filizsav/IdeaProjects/testng_framework_05/testng.xml">
-    <configuration name="TechGlobalCheckBoxButtonTest.validateCheckboxes" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TechGlobalAlertsText.confirmationAlert">
+    <configuration name="TechGlobalAlertsText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
         <pattern>
@@ -82,25 +87,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalCheckBoxButtonTest" />
-      <option name="METHOD_NAME" value="validateCheckboxes" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TechGlobalLogoTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalLogoTest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalAlertsText" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -108,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalLogoTest.validateTechGlobalLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalAlertsText.confirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +104,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalLogoTest" />
-      <option name="METHOD_NAME" value="validateTechGlobalLogo" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalAlertsText" />
+      <option name="METHOD_NAME" value="confirmationAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,20 +113,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/filizsav/IdeaProjects/testng_framework_05/smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalAlertsText.warningAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoke.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalAlertsText" />
+      <option name="METHOD_NAME" value="warningAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/filizsav/IdeaProjects/testng_framework_05/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalMultipleWindowsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalMultipleWindowsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechGlobalMultipleWindowsTest.validateLinkUrls" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalMultipleWindowsTest" />
+      <option name="METHOD_NAME" value="validateLinkUrls" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/filizsav/IdeaProjects/testng_framework_05/testng.xml" />
-        <item itemvalue="TestNG./Users/filizsav/IdeaProjects/testng_framework_05/smoke.xml" />
-        <item itemvalue="TestNG.TechGlobalLogoTest.validateTechGlobalLogo" />
-        <item itemvalue="TestNG.TechGlobalLogoTest" />
-        <item itemvalue="TestNG.TechGlobalCheckBoxButtonTest.validateCheckboxes" />
+        <item itemvalue="TestNG.TechGlobalAlertsText.confirmationAlert" />
+        <item itemvalue="TestNG.TechGlobalAlertsText.warningAlert" />
+        <item itemvalue="TestNG.TechGlobalAlertsText" />
+        <item itemvalue="TestNG.TechGlobalMultipleWindowsTest" />
+        <item itemvalue="TestNG.TechGlobalMultipleWindowsTest.validateLinkUrls" />
       </list>
     </recent_temporary>
   </component>
