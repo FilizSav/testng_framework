@@ -1,8 +1,7 @@
 package testng_knowledge;
 
-import org.testng.annotations.*;
-
 public class _01_Annotations {
+    /*
     @BeforeTest
     public void beforeTest(){
         System.out.println("The test is completed, this is before Test");
@@ -35,4 +34,6 @@ public class _01_Annotations {
     public void test2() {
         System.out.println("This is test case 2");
     }
+
+     */
 }

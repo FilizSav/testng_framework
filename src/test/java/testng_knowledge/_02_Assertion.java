@@ -1,10 +1,7 @@
 package testng_knowledge;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 public class _02_Assertion {
-
+/*
     @Test
     public void test1(){
         Assert.assertTrue(true);
@@ -32,4 +29,6 @@ public class _02_Assertion {
     public void login(){
         Assert.fail("This test fails due to BUG: 123ABC");
     }
+
+ */
 }
