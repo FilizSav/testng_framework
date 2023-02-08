@@ -5,39 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73626eb0-eb89-4d96-a36b-f011b3d85ce2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paralled_methods.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel_classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parameterization.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit_knowledge/_01_Annotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalCalendarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalFileDownloadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalFileStaticTablesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalFileUploadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalIframePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalCalendarPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalFileUploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalIframeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalStaticTablesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_05_SoftAssertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_06_DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_07_Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_08_Parallel_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_09_Parallel_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_10_Parameterization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TableData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TextHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShotFolder/2023-01-30 17-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jason/filiz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jason/osman.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jason/volkan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jason_read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalActionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalSortedTablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalActionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalSortedTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ScreenShots.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit_knowledge/_01_Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit_knowledge/_01_Annotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TechGlobalCalendarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalCalendarPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicTablesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalCalendarPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalCalendarPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDynamicTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDynamicTablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng_knowledge/_01_Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_01_Annotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng_knowledge/_02_Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_02_Assertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng_knowledge/_03_Priority_and_Dependency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_03_Priority_and_Dependency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng_knowledge/_04_TestDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_04_TestDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TableData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +74,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Files" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -101,8 +88,15 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TechGlobalDynamicTablesTest.validateDynamicTable">
-    <configuration name="TechGlobalDynamicTablesTest.validateDynamicTable" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.jason_read">
+    <configuration name="jason_read" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jason_read" />
+      <module name="testng_framework_05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechGlobalActionsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +105,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalDynamicTablesTest" />
-      <option name="METHOD_NAME" value="validateDynamicTable" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalActionsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechGlobalActionsTest.keyboardActions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalActionsTest" />
+      <option name="METHOD_NAME" value="keyboardActions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalStaticTablesTest.validateAllCells" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalActionsTest.moreKeyboardActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
-      <option name="METHOD_NAME" value="validateAllCells" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalActionsTest" />
+      <option name="METHOD_NAME" value="moreKeyboardActions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,54 +149,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalStaticTablesTest.validateColumn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_01_Annotations" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scripts.*" />
+          <option name="PATTERN" value="junit_knowledge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
-      <option name="METHOD_NAME" value="validateColumn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TechGlobalStaticTablesTest.validateRow" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
-      <option name="METHOD_NAME" value="validateRow" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TechGlobalStaticTablesTest.validateStaticTableInfo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalStaticTablesTest" />
-      <option name="METHOD_NAME" value="validateStaticTableInfo" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="junit_knowledge" />
+      <option name="MAIN_CLASS_NAME" value="junit_knowledge._01_Annotations" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -194,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TechGlobalDynamicTablesTest.validateDynamicTable" />
-        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateAllCells" />
-        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateRow" />
-        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateColumn" />
-        <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateStaticTableInfo" />
+        <item itemvalue="Application.jason_read" />
+        <item itemvalue="TestNG._01_Annotations" />
+        <item itemvalue="TestNG.TechGlobalActionsTest" />
+        <item itemvalue="TestNG.TechGlobalActionsTest.moreKeyboardActions" />
+        <item itemvalue="TestNG.TechGlobalActionsTest.keyboardActions" />
       </list>
     </recent_temporary>
   </component>

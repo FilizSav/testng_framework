@@ -1,6 +1,7 @@
 package scripts;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
@@ -30,6 +31,9 @@ public class TechGlobalBase {
 
     TechGlobalFileStaticTablesPage techGlobalFileStaticTablesPage;
     TechGlobalCalendarPage techGlobalCalendarPage;
+    TechGlobalSortedTablePage techGlobalSortedTablePage;
+    TechGlobalActionsPage techGlobalActionsPage;
+    Actions actions;
 
     @BeforeMethod
     public void setup(){
